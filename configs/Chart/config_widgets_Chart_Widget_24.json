@@ -1,0 +1,50 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          255
+        ],
+        "width": 5.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "webMapLayerId": "Red_Abastecimiento_502",
+      "mode": "count",
+      "name": "Tipo de tuberías",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "pie",
+          "display": {
+            "colors": [
+              "#72ad4c",
+              "#4673c2",
+              "#febf29",
+              "#44682e",
+              "#274577",
+              "#987214"
+            ],
+            "showDataLabel": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "Tipo",
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    }
+  ]
+}

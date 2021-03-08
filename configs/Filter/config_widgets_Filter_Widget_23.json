@@ -1,0 +1,139 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": false,
+  "zoomto": false,
+  "zoombackto": false,
+  "allowCustom": false,
+  "allowResetAll": false,
+  "allowTurnOffAll": false,
+  "filters": [
+    {
+      "layerId": "Red_Abastecimiento_5315",
+      "url": "https://services3.arcgis.com/Jk67jiFImWA5DUok/arcgis/rest/services/Red_Abastecimiento/FeatureServer/2",
+      "name": "Red_Abastecimiento - Válvulas",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Diametro",
+              "label": "Diametro",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": 300
+            },
+            "interactiveObj": {
+              "prompt": "Averia (Número) es",
+              "hint": "Si",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "Diametro = 300",
+            "expr": "Diametro = 300"
+          }
+        ],
+        "expr": "Diametro = 300",
+        "displaySQL": "Diametro = 300"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "Red_Abastecimiento_5315",
+      "url": "https://services3.arcgis.com/Jk67jiFImWA5DUok/arcgis/rest/services/Red_Abastecimiento/FeatureServer/2",
+      "name": "Red_Abastecimiento - Válvulas",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Diametro",
+              "label": "Diametro",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": 300
+            },
+            "interactiveObj": {
+              "prompt": "Diámetro  (mm) es",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "Diametro = 300",
+            "expr": "Diametro = 300"
+          }
+        ],
+        "expr": "Diametro = 300",
+        "displaySQL": "Diametro = 300"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    }
+  ]
+}

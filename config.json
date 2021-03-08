@@ -1,0 +1,681 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "blue",
+      "purple",
+      "red",
+      "yellow",
+      "default",
+      "black",
+      "cyan",
+      "green"
+    ],
+    "version": "2.19",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://diego-rodri.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "App_Abastecimiento",
+  "subtitle": "with ArcGIS Web AppBuilder",
+  "keepAppState": true,
+  "logo": "https://diego-rodri.maps.arcgis.com/sharing/rest/content/items/0ac2b6c1d64b4ea8932d598d044269e9/data",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "paddingRight": 275,
+          "relativeTo": "browser"
+        },
+        "version": "2.19",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 30,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Scalebar_Widget_2",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "right": 2,
+          "top": 2,
+          "relativeTo": "browser",
+          "zIndex": 1
+        },
+        "version": "2.19",
+        "id": "widgets_Search_Widget_3",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Coordinate_Widget_4",
+        "name": "Coordinate"
+      },
+      {
+        "position": {
+          "left": 14,
+          "top": 12,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5"
+      },
+      {
+        "position": {
+          "left": 14,
+          "top": 62,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_6"
+      },
+      {
+        "position": {
+          "left": 14,
+          "top": 112,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_7"
+      },
+      {
+        "position": {
+          "left": 14,
+          "top": 162,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 4,
+        "id": "_8"
+      },
+      {
+        "position": {
+          "left": 14,
+          "top": 212,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 5,
+        "id": "_9"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_OverviewMap_Widget_10",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 84,
+          "bottom": 64,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_HomeButton_Widget_11",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 120,
+          "bottom": 64,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_MyLocation_Widget_12",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.19",
+        "id": "widgets_AttributeTable_Widget_13",
+        "name": "AttributeTable"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.19",
+        "id": "widgets_Splash_Widget_14",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 64,
+          "height": 30,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "left": 200,
+          "bottom": 64,
+          "height": 30,
+          "relativeTo": "map"
+        },
+        "id": "widgets_ExtentNavigate_Widget_16",
+        "name": "ExtentNavigate",
+        "version": "2.19"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "left": 160,
+          "bottom": 64,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_FullScreen_Widget_17",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "b4579dfba7044e6981db27908275f8f0",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://www.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.19",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.19",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3
+      },
+      {
+        "name": "Bookmark",
+        "version": "2.19",
+        "uri": "widgets/Bookmark/Widget",
+        "config": "configs/Bookmark/config_widgets_Bookmark_Widget_20.json",
+        "index": 4,
+        "id": "widgets_Bookmark_Widget_20"
+      },
+      {
+        "name": "Measurement",
+        "version": "2.19",
+        "uri": "widgets/Measurement/Widget",
+        "config": "configs/Measurement/config_widgets_Measurement_Widget_21.json",
+        "index": 5,
+        "id": "widgets_Measurement_Widget_21"
+      },
+      {
+        "name": "Query",
+        "version": "2.19",
+        "uri": "widgets/Query/Widget",
+        "config": "configs/Query/config_widgets_Query_Widget_22.json",
+        "index": 6,
+        "id": "widgets_Query_Widget_22",
+        "openAtStart": false
+      },
+      {
+        "name": "Filter",
+        "version": "2.19",
+        "uri": "widgets/Filter/Widget",
+        "config": "configs/Filter/config_widgets_Filter_Widget_23.json",
+        "index": 7,
+        "id": "widgets_Filter_Widget_23"
+      },
+      {
+        "name": "Chart",
+        "version": "2.19",
+        "uri": "widgets/Chart/Widget",
+        "config": "configs/Chart/config_widgets_Chart_Widget_24.json",
+        "index": 9,
+        "id": "widgets_Chart_Widget_24"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "paddingRight": 0,
+            "relativeTo": "browser"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 12,
+            "bottom": 35,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 12,
+            "right": 12,
+            "top": 10,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 12,
+            "bottom": 18,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "position": {
+            "right": 12,
+            "top": 62,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "right": 12,
+            "top": 112,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "right": 12,
+            "top": 162,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "right": 12,
+            "top": 212,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "right": 12,
+            "top": 262,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "zIndex": 1
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 12,
+            "top": 102,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 12,
+            "top": 62,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.19",
+          "position": {
+            "relativeTo": "browser"
+          }
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "left": 12,
+            "top": 142,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 209,
+            "left": 12,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "left": 160,
+            "bottom": 64,
+            "relativeTo": "map"
+          },
+          "version": "2.19"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.19",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~widgets_Query_Widget_22~0": {
+        "id": "widget~widgets_Query_Widget_22~0",
+        "type": "Features",
+        "label": "Red_Abastecimiento - Válvulas",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Tipo",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Tipo de vávula",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Diametro",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Diámetro  (mm)",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Presion",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Presión  (Bar)",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Fecha_Instalacion",
+              "type": "esriFieldTypeDate",
+              "alias": "Fecha de instalación",
+              "sqlType": "sqlTypeOther",
+              "length": 8,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Orden_Trabajo",
+              "type": "esriFieldTypeInteger",
+              "alias": "Orden de trabajo",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Estado",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Estado",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": true,
+              "domain": {
+                "type": "codedValue",
+                "name": "Estado",
+                "codedValues": [
+                  {
+                    "name": "True",
+                    "code": 1
+                  },
+                  {
+                    "name": "False",
+                    "code": 2
+                  }
+                ]
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "Fecha_Creacion",
+              "type": "esriFieldTypeDate",
+              "alias": "Fecha de creación",
+              "sqlType": "sqlTypeOther",
+              "length": 8,
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Usuario_Creacion",
+              "type": "esriFieldTypeString",
+              "alias": "Usuario de creación",
+              "sqlType": "sqlTypeOther",
+              "length": 20,
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Fecha_Modificacion",
+              "type": "esriFieldTypeDate",
+              "alias": "Fecha de modificación",
+              "sqlType": "sqlTypeOther",
+              "length": 8,
+              "nullable": true,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Usuario_Modificacion",
+              "type": "esriFieldTypeString",
+              "alias": "Usuario de modificación",
+              "sqlType": "sqlTypeOther",
+              "length": 20,
+              "nullable": true,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "filename2",
+              "type": "esriFieldTypeString",
+              "alias": "Imagen",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Id_Valvula",
+              "type": "esriFieldTypeInteger",
+              "alias": "ID válvula",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ],
+          "displayField": "Id_Valvula",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "sqlType": "sqlTypeOther",
+            "nullable": false,
+            "editable": false,
+            "domain": null,
+            "defaultValue": null
+          },
+          "typeIdField": "Tipo"
+        }
+      }
+    },
+    "settings": {}
+  }
+}

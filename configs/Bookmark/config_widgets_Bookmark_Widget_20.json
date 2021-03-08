@@ -1,0 +1,80 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "calle marroquina",
+      "name": "calle marroquina",
+      "extent": {
+        "xmin": -406778.3029273211,
+        "ymin": 4925035.033044278,
+        "xmax": -406133.36550121935,
+        "ymax": 4925393.331614335,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -406778.3029273211,
+                "ymin": 4925035.033044278,
+                "xmax": -406133.36550121935,
+                "ymax": 4925393.331614335,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "/webappbuilder/apps/3/widgets/Bookmark/images/thumbnail_default.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Red_Abastecimiento_4172": {
+          "selected": true
+        },
+        "Red_Abastecimiento_4277": {
+          "selected": true
+        },
+        "Red_Abastecimiento_5315": {
+          "selected": true
+        },
+        "Red_Abastecimiento_5613": {
+          "selected": true
+        },
+        "Red_Abastecimiento_9861": {
+          "selected": true
+        },
+        "Red_Abastecimiento_8707": {
+          "selected": true
+        },
+        "Red_Abastecimiento_651": {
+          "selected": true
+        },
+        "Red_Abastecimiento_502": {
+          "selected": true
+        },
+        "Red_Abastecimiento_6350": {
+          "selected": false
+        }
+      },
+      "_uID": 1
+    }
+  ],
+  "bookmarks3D": [],
+  "layout": {
+    "cards": true,
+    "list": false,
+    "defaultMode": "cards"
+  },
+  "editable": true,
+  "syncMode": {
+    "webmap": true,
+    "custom": true
+  },
+  "isSaveLayerVisibility": false
+}
